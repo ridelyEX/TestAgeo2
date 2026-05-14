@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Data/Data.csproj" Id="989c8c30-7ff6-415d-abb7-da54ddb9aeff" />
+  <Project Path="Models/Models.csproj" />
   <Project Path="TestAgeo2/TestAgeo2.csproj" />
 </Solution>
