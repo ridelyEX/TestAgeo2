@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models.Entities.Personas
 {
-    internal class Direccion
+    public class Direccion
     {
+        public int Id { get; set; }
+        public string Calle { get; set; } = string.Empty;
+        public string Colonia { get; set; } = string.Empty;
+        public string CodigoPostal { get; set; } = string.Empty;
     }
 }

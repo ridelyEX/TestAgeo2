@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models.Entities.Proyectos
 {
-    internal class DireccionProyecto
+    public class DireccionProyecto
     {
+        public int Id { get; set; }
+        public string Calle { get; set; }
+        public string Colonia { get; set; }
+        public int CodigoPostal { get; set; }
     }
 }
