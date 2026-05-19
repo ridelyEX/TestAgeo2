@@ -11,6 +11,6 @@ namespace Models.Entities.Personas
         public int Id { get; set; }
         public string Calle { get; set; } = string.Empty;
         public string Colonia { get; set; } = string.Empty;
-        public string CodigoPostal { get; set; } = string.Empty;
+        public int CodigoPostal { get; set; }
     }
 }

@@ -18,7 +18,7 @@ namespace Models.DTOs.Personas
         public DateOnly FechaNacimiento { get; set; } = DateOnly.FromDateTime(DateTime.Now);
         public string Calle { get; set; } = string.Empty;
         public string Colonia { get; set; } = string.Empty;
-        public string CodigoPostal { get; set; } = string.Empty;
+        public int CodigoPostal { get; set; }
         public string NumeroTelefono { get; set; } = string.Empty;
     }
 }
